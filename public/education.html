@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .container{
+    width:1200px;
+    margin:0 auto;
+}
+
+.navbar{
+  overflow: hidden;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding-top:1rem;
+}
+
+.logo{
+    width:80px;
+}
+
+.logo-container{
+    display:flex;
+    justify-content: baseline;
+    align-items: center;
+}
+
+.logo-text{
+    margin-left:-1.2rem;
+    font-size:28px;
+}
+
+.nav-items{
+    display:flex;
+    gap:2rem;
+    padding: 0 4em;
+}
+
+.nav-items div{
+    font-size:20px;
+    font-weight:500;
+    cursor:pointer;
+   
+}
+.nav-items div a{
+    color:black;
+    /* transition: all 5s ease; */
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.nav-items div:hover{
+    transition:0.8s;
+    font-weight: bold;
+}
+
+
+.course-heading {
+            font-size: 2em;
+            margin: 20px 0;
+        }
+
+        .education-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            justify-items: center;
+            margin: auto;
+            max-width: 1000px;
+        }
+
+        .course {
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin: 10px;
+            width: 200px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            transition: transform 0.3s, box-shadow 0.3s;
+            background: #c6cae2;
+        }
+
+        .course:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+
+        /* footer */
+
+        footer{
+  position:relative;
+  margin-top:-1px;
+  background-color: #343d68;
+  padding:5rem;
+}
+
+.footer-wrapper{
+  display:flex;
+  gap:1rem;
+  padding:1.2rem;
+  justify-content: space-between;
+  align-items:center;
+}
+
+.footer-faded-text{
+  position:absolute;
+  left:0;
+  bottom:0;color:#535c87;
+  user-select:none;
+  font-size:5em;
+}
+
+.link-wrapper{
+  display:flex;
+  gap:1.2rem;
+}
+
+.link-wrapper div a{
+  color:white;
+  text-decoration:none;
+  transition:all 0.6s;
+}
+
+.link-wrapper div a:hover{
+  color:var(--bgOrange);
+}
+.icon{
+    cursor:pointer;
+    color:white;
+    font-size:35px;
+    transition:all 0.4s;
+  }
+
+  .icon:hover{
+    color:var(--bgOrange);
+  }
+
+.icon-wrapper{
+  padding-right: 15px;
+  display:flex;
+  gap:1.2rem;
+}
+  </style>
+  <title>EDUCATION</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="navbar">
+            
+            <div class="logo-container" id="home">
+                <img src="./images/userAsset/NavLogo.jpg" class="logo">
+                <div class="logo-text">ortfoLio.</div>
+            </div>
+            
+            <div class="nav-items">
+              <div><a href="index.html">Home</a></div>
+                <div><a href="projects.html">Projects</a></div>
+                <div><a href="education.html">Education</a></div>
+                <div><a href="index.html">Contact Me</a></div>
+            </div>
+
+        </div>
+    </div>
+    
+        <h1 class="course-heading">Courses</h1>
+        <div class="education-container">
+            <div class="course">Computer Science - Grade 9</div>
+            <div class="course">English - Grade 9</div>
+            <div class="course">Pakistan Studies - Grade 9</div>
+            <div class="course">Urdu - Grade 9</div>
+            <div class="course">Chemistry - Grade 9</div>
+            <div class="course">Math - Grade 10</div>
+            <div class="course">English - Grade 10</div>
+            <div class="course">Islamiyat - Grade 10</div>
+            <div class="course">Sindhi - Grade 10</div>
+            <div class="course">Physics - Grade 10</div>
+            <div class="course">English - Grade 11</div>
+            <div class="course">Urdu - Grade 11</div>
+            <div class="course">Physics - Grade 11</div>
+            <div class="course">Math - Grade 11</div>
+            <div class="course">Chemistry - Grade 11</div>
+            <div class="course">English - Grade 12</div>
+            <div class="course">Chemistry - Grade 12</div>
+            <div class="course">Physics - Grade 12</div>
+            <div class="course">Urdu - Grade 12</div>
+            <div class="course">Math - Grade 12</div>
+            <div class="course">ICT - semester 1</div>
+            <div class="course">PF - semester 1</div>
+            <div class="course">AP - semester 1</div>
+            <div class="course">Cal - semester 1</div>
+            <div class="course">ECC - semester 1</div>
+            <div class="course">IRS - semester 1</div>
+            <div class="course">OOP - semester 2</div>
+            <div class="course">CPS - semester 2</div>
+            <div class="course">DLD - semester 2</div>
+            <div class="course">DE - semester 2</div>
+            <div class="course">PST - semester 2</div>
+            <div class="course">DSA - semester 3</div>
+            <div class="course">COAL - semester 3</div>
+            <div class="course">DE - semester 3</div>
+            <div class="course">FOM - semester 3</div>
+            <div class="course">LA - semester 3</div>
+            <div class="course">OS - semester 4</div>
+            <div class="course">NC - semester 4</div>
+            <div class="course">PROB - semester 4</div>
+            <div class="course">PCY - semester 4</div>
+            <div class="course">TOA - semester 4</div>
+            <div class="course">DAA - semester 5</div>
+            <div class="course">SDA - semester 5</div>
+            <div class="course">DB - semester 5</div>
+            <div class="course">PDC - semester 5</div>
+            <div class="course">GT - semester 5</div>
+            <div class="course">AI - semester 6</div>
+            <div class="course">CN - semester 6</div>
+            <div class="course">SE - semester 6</div>
+            <div class="course">IR - semester 6</div>
+            <div class="course">TBW - semester 6</div>
+            <div class="course">FYP-1 - semester 7</div>
+            <div class="course">DevOps - semester 7</div>
+            <div class="course">RS - semester 7</div>
+            <div class="course">PPIT - semester 7</div>
+            <div class="course">IS - semester 7</div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+          <div class="footer-wrapper">
+            <div class="footer-faded-text">Kashif Ali</div>
+
+            <div class="link-wrapper">
+              <div>
+                <a href="#home">Home</a>
+              </div>
+              <div>
+                <a href="#skills">About</a>
+              </div>
+              <div>
+                <a href="#projects">Projects</a>
+              </div>
+              <div>
+                <a href="#skills">Skills</a>
+              </div>
+              <div>
+                <a href="#contactme">Contact Me</a>
+              </div>
+            </div>
+
+            <div class="icon-wrapper">
+             <a href="https://www.linkedin.com/in/kashiiitech/" target="_blank"><i class="fa-brands fa-linkedin icon"></i></a>
+              <a href="https://github.com/kashiiitech" target="_blank"><i class="fa-brands fa-github icon"></i></a>
+              <a href="https://twitter.com/Kashiiitech" target="_blank"><i class="fa-brands fa-twitter icon"></i></a>
+              <a href="https://www.instagram.com/kashif_alii54/" target="_blank"><i class="fa-brands fa-instagram icon"></i></a>
+              <a href="mailto: kashiiitech@gmail.com" target="_blank"><i class="fa-regular fa-envelope icon"></i></a>
+            </div>
+
+            <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+            <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+
+          </div>
+        </div>
+      </footer>
+
+</body>
+</html>
